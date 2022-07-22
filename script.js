@@ -25,9 +25,9 @@ const setAnswer = (keys, nr) => {
   const gameMode = document.querySelector('h1').textContent
   let answers = {
     'Panic on the Titanic': panicOnTheTitanic,
-    'Virus': virus,
-    'Nuclear Countdown': nuclear,
-    'Temple of the Aztec': temple,
+    'Alice in wonderland': aliceInWonderland,
+    'Down of the zombies': downofthezombies,
+    'The basement': theBasement,
   }
   const answer = answers[gameMode]
   const reveal = document.querySelector(`#reveal-${nr}`)
